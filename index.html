@@ -111,15 +111,24 @@
         }
 
         .resource-icon {
-            font-size: 2em;
+            width: 60px;
+            height: 60px;
             margin-right: 15px;
-            min-width: 60px;
-            text-align: center;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        .resource-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
         }
 
         .resource-info h3 {
             color: #ffd449;
             margin-bottom: 5px;
+            font-size: 1.1em;
         }
 
         .resource-info p {
@@ -338,7 +347,9 @@
         <div class="calculator-grid">
             <div class="resource-card">
                 <div class="resource-header">
-                    <div class="resource-icon">🛡️</div>
+                    <div class="resource-icon">
+                        <img src="refined-metal.png" alt="Refined Metal">
+                    </div>
                     <div class="resource-info">
                         <h3>Refined Metal</h3>
                         <p>10 points per 100 units</p>
@@ -352,7 +363,9 @@
 
             <div class="resource-card">
                 <div class="resource-header">
-                    <div class="resource-icon">🎖️</div>
+                    <div class="resource-icon">
+                        <img src="medal.png" alt="Medal">
+                    </div>
                     <div class="resource-info">
                         <h3>Medals</h3>
                         <p>1 point per 200 units (min 200)</p>
@@ -366,7 +379,9 @@
 
             <div class="resource-card">
                 <div class="resource-header">
-                    <div class="resource-icon">🪵</div>
+                    <div class="resource-icon">
+                        <img src="magic-thread.png" alt="Magic Thread">
+                    </div>
                     <div class="resource-info">
                         <h3>Magic Thread</h3>
                         <p>10 points each</p>
@@ -380,7 +395,9 @@
 
             <div class="resource-card">
                 <div class="resource-header">
-                    <div class="resource-icon">🔮</div>
+                    <div class="resource-icon">
+                        <img src="orichalcum.png" alt="Orichalcum">
+                    </div>
                     <div class="resource-info">
                         <h3>Orichalcum</h3>
                         <p>15 points each</p>
@@ -394,7 +411,9 @@
 
             <div class="resource-card">
                 <div class="resource-header">
-                    <div class="resource-icon">🃏</div>
+                    <div class="resource-icon">
+                        <img src="rare-troop-skin.png" alt="Rare Troop Skin">
+                    </div>
                     <div class="resource-info">
                         <h3>Rare Troop Skin</h3>
                         <p>30 points each</p>
@@ -408,7 +427,9 @@
 
             <div class="resource-card">
                 <div class="resource-header">
-                    <div class="resource-icon">🎴</div>
+                    <div class="resource-icon">
+                        <img src="epic-troop-skin.png" alt="Epic Troop Skin">
+                    </div>
                     <div class="resource-info">
                         <h3>Epic Troop Skin</h3>
                         <p>300 points each</p>
@@ -422,7 +443,9 @@
 
             <div class="resource-card">
                 <div class="resource-header">
-                    <div class="resource-icon">🏆</div>
+                    <div class="resource-icon">
+                        <img src="legendary-troop-skin.png" alt="Legendary Troop Skin">
+                    </div>
                     <div class="resource-info">
                         <h3>Legendary Troop Skin</h3>
                         <p>3,000 points each</p>
@@ -436,7 +459,9 @@
 
             <div class="resource-card">
                 <div class="resource-header">
-                    <div class="resource-icon">🌟</div>
+                    <div class="resource-icon">
+                        <img src="star-medal.png" alt="Star Medal">
+                    </div>
                     <div class="resource-info">
                         <h3>Bounty Quests (Star Medal)</h3>
                         <p>50 points each</p>
@@ -698,4 +723,3 @@
     </script>
 </body>
 </html>
-
